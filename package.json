@@ -1,0 +1,30 @@
+{
+  "name": "webfolio",
+  "version": "1.0.0",
+  "description": "My personal eportfolio which contains my projects",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "front": "cd front && npm start",
+    "build": "cd front && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegorodriguez31/webfolio.git"
+  },
+  "author": "Diego Rodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diegorodriguez31/webfolio/issues"
+  },
+  "homepage": "https://github.com/diegorodriguez31/webfolio#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
