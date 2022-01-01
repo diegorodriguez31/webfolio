@@ -8,7 +8,12 @@
     "start": "node server.js",
     "watch": "nodemon server.js",
     "front": "cd front && npm start",
+    "install-front": "cd front && npm install",
+    "heroku-postbuild": "npm run install-front && npm run build",
     "build": "cd front && npm run build"
+  },
+  "engines": {
+    "node": "14.x"
   },
   "repository": {
     "type": "git",
